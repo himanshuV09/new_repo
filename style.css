@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+}
+
+#one {
+  position: static;
+  top: 100px;
+  left: 100px;
+  background: blue;
+}
+#two {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  background: green;
+}
+#three {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  background: yellow;
+}
+
+
+
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+p {
+  background: aqua;
+  border: 3px solid blue;
+  padding: 10px;
+  margin: 10px;
+}
+
+span {
+  background: red;
+  border: 1px solid black;
+}
+
+.positioned {
+  position: absolute;
+  background: yellow;
+  inset-block-start: 30px;
+  inset-inline-start: 30px;
+} */
